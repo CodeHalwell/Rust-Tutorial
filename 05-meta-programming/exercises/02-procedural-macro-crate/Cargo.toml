@@ -1,0 +1,8 @@
+[package]
+name = "my-macros"
+version = "0.1.0"
+edition = "2021"
+description = "Exercise: a dependency-free procedural macro crate (banner! and #[derive(TypeName)])"
+
+[lib]
+proc-macro = true

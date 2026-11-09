@@ -126,9 +126,10 @@ rust-zero-to-hero-systems/
 │
 ├── examples/                               # Intermediate Examples
 │   ├── 01-interior-mutability.rs           # RefCell, Rc, Mutex, Arc patterns
-│   ├── 02-drop-implementation.rs
-│   ├── 03-custom-iterators.rs
-│   └── 04-error-handling-deep-dive.rs
+│   ├── 02-drop-and-raii.rs                 # Drop trait and RAII patterns
+│   ├── 03-custom-iterators.rs              # Iterator trait implementation
+│   ├── 04-error-handling-deep-dive.rs      # Result and Option patterns
+│   └── 05-advanced-patterns.rs             # Builder, typestate, RAII patterns
 │
 └── docs/                                   # Additional Resources
     ├── mental-models.md
